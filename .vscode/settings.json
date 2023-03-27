@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+      "/K",
+      "C:\\cmder\\vendor\\init.bat"
+    ],
+}
