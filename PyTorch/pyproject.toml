@@ -13,6 +13,8 @@ torchaudio = { url = "https://download.pytorch.org/whl/cu118/torchaudio-2.0.0%2B
 torchvision = { url = "https://download.pytorch.org/whl/cu118/torchvision-0.15.0%2Bcu118-cp310-cp310-win_amd64.whl"}
 ipykernel = "^6.22.0"
 notebook = "^6.5.3"
+matplotlib = "^3.7.1"
+pandas = "^1.5.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
