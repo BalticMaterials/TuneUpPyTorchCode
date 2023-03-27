@@ -1,4 +1,4 @@
 #Add Jupyther 
 
-poetry config installer.modern-installation false  --local
+$poetry config installer.modern-installation false  --local
 Link -> https://github.com/python-poetry/poetry/issues/7686 
