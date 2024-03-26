@@ -1,5 +1,10 @@
 # TuneUpPyTorchCode
 
-## Virtual Environment
-Based on the Article https://www.encora.com/insights/comparing-the-most-popular-virtual-environment-tools-for-python
-we have decided for the virtual environment "Virtualenv" on plane python in visual studio code with the PYTHON PACKAGING AND DEPENDENCY MANAGEMENT Poetry https://python-poetry.org/
+sudo apt update && sudo apt install software-properties-common -y
+
+
+sudo add-apt-repository ppa:deadsnakes/ppa 
+
+sudo apt update && sudo apt install python3.11 
+
+poetry env use python3.11  
