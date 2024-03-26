@@ -1,24 +1,3 @@
-# TuneUpPyTorchCode
-
-$ sudo apt update && sudo apt install software-properties-common -y
-
-
-$ sudo add-apt-repository ppa:deadsnakes/ppa 
-
-$ sudo apt update && sudo apt install python3.11 
-
-$ poetry env use python3.11  
-
-and install 
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-
-direct after activating the env with $ poetry shell
-
-
-For the Usage of VSC - Remote Explore 
-( in some cases it is needed to get the user sudo to work)
-$ sudo chown -R non_root_username /path/to/directory
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
@@ -55,7 +34,7 @@ $ sudo chown -R non_root_username /path/to/directory
     <img src="images/BalticMaterials_Logo_linksbuendig-1-600x113.webp" alt="Logo" width="600" height="113">
   </a>
 
-<h3 align="center">Python Script Collection</h3>
+<h3 align="center">TuneUpPyTorchCode</h3>
 
   <p align="center">
     different python scripts sorted in folders in field of application
@@ -124,8 +103,26 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
+$ sudo apt update && sudo apt install software-properties-common -y
+
+
+$ sudo add-apt-repository ppa:deadsnakes/ppa 
+
+$ sudo apt update && sudo apt install python3.11 
+
+$ poetry env use python3.11  
+
+and install 
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+direct after activating the env with $ poetry shell
+
+
+For the Usage of VSC - Remote Explore 
+( in some cases it is needed to get the user sudo to work)
+$ sudo chown -R non_root_username /path/to/directory
+
 
 ### Prerequisites
 
